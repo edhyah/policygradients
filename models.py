@@ -206,7 +206,6 @@ class Dense():
             gradient with respect to weight matrix W, gradient with respect to
             bias matrix b)
         """
-        import pdb; pdb.set_trace()
         grad_input = grad @ self.W.T
         grad_W = self.x.T @ grad
         grad_b = grad.sum(axis=0)

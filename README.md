@@ -28,12 +28,13 @@ action-value function and the value function, respectively.
 
 ## Installation
 
-Code was only tested on Python 3.8.
+Code was only tested on Python 3.8. For other versions, you may have to play
+around with dependencies a bit.
 
 First, create a virtual environment:
 ```
 cd /path/to/policygradients
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
@@ -75,7 +76,7 @@ Make sure your virtual environment is sourced.
 - [Original policy gradent paper](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
 - [PPO paper](https://arxiv.org/pdf/1707.06347.pdf)
 
-## Questions?
+## Found this useful?
 
-Contact me on [Twitter](https://twitter.com/edwardahn9)!
+Follow me on [Twitter](https://twitter.com/edwardahn9)!
 
